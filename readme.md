@@ -16,9 +16,10 @@
 - Voting Rights
   - Depends on share class
 - (typically) Traded on Exchanges
-  - (somtimes) Over-the-Counter (OTC)
+  - (sometimes) Over-the-Counter (OTC)
 - Value versus Growth
 - Small cap(italization) versus Mid cap versus Large cap
+- Growth versus Value
 
 ### Depositary Receipts
 - American Depositary Receipts (ADRs) are foreign stocks traded in the U.S.
@@ -40,19 +41,52 @@
 - The difference between sale and repurchase price represents the interest earned by the lender
 - Reverse Repo is the purchase of securities with an agreement to resell them at a later date at a (higher) price
 
-## Bonds
+## Debt
+- To borrow money with a promise to repay the principal along with interest
+- Fixed Rate
+- Floating Rate
+  - Some benchmark + Spread
+  - Examples of benchmarks
+    - SOFR (Secured Overnight Financing Rate)
+    - ESTR (Euro Short-Term Rate)
+    - SONIA (Sterling Overnight Index Average)
+- Zero-Coupon
+  - No periodic interest payments, but sold at a discount to face value
+- Callable
+  - Issuer has the right to redeem the bond before maturity
+- Putable
+  - Bondholder has the right to sell the bond back to the issuer before maturity
+- Amortizing
+  - Regular payments of principal and interest over the life of the loan
 
-### Sovereign Debt
+### Loan
+- Sum of money lent at interest
+- Amortizing loan examples
+  - Mortgages
+  - Auto Loans
+  - Student Loans
+  - Personal Loans
+
+### Bonds
+- (Bullet) Bond is a debt instrument that pays periodic interest and returns the principal at maturity
+
+#### Sovereign Debt
 - Debt issued by national governments
+- Examples
+  - U.S. Treasury Bills, Notes (2-10 years), and Bonds (> 10 years)
+    - T-Bills: Short-term (less than 1 year) zero-coupon bonds
+  - German Bunds
+  - Japanese Government Bonds (JGBs)
+  - UK Gilts
 
-### Supranational Bonds
+#### Supranational Bonds
 - Issued by international organizations
   - e.g., World Bank, International Monetary Fund (IMF), European Investment Bank (EIB)
 
 ### Municipal Bonds (in US)
-- Issued by states, cities, counties
+- Issued by states, counties, cities
 
-#### Non-Taxable Bonds
+##### Non-Taxable Bonds
 - Interest is exempt from federal income tax
 - General Obligation (GO) Bonds
   - Supported by taxes
@@ -62,21 +96,26 @@
 - Double-barreled Bonds
   - Backed by both GO and Revenue sources
 
-#### Taxable Bonds
+##### Taxable Bonds
 - Taxable but with federal subsidies to issuers
   - Build America Bonds (BABs)
 
-### Corporate Bonds
+#### Corporate Bonds
+- Bonds issues by corporations
 
-#### Investment Grade
+##### Investment Grade
+- Higher credit quality bonds
+  - As rated by credit rating agencies
 
-#### High Yield
+##### High Yield
+- Lower credit quality bonds
+- Junk Bonds
 
-### Emerging Market Debt
+#### Emerging Market Debt
 - Sovereign vs. Corporate
-- Local versus (Hard) Currency
+- Local versus Non-Local (Hard) Currency
 
-### Asset-Backed Securities (ABS)
+#### Asset-Backed Securities (ABS)
 - Backed (collateralized) by assets
   - Mortgages
   - Loans
@@ -88,34 +127,36 @@
     - Beanie Babies
     - Berkin Bags
 
-#### Mortgage-Backed Securities (MBS)
+##### Mortgage-Backed Securities (MBS)
 - Backed by residential and commercial mortgages
 
-##### Residential Mortgage-Backed Securities (RMBS)
+###### Residential Mortgage-Backed Securities (RMBS)
 - Agency MBS
   - Issued by government-sponsored enterprises (GSEs) 
     - Fannie Mae - Federal National Mortgage Association (FNMA)
     - Freddie Mac - Federal Home Loan Mortgage Corporation (FHLMC)
 
 ##### Commercial Mortgage-Backed Securities (CMBS)
+- Backed by commercial mortgages on properties
+- Examples of commercial properties
+  - Office buildings
+  - Shopping malls
+  - Hotels
+  - Apartment complexes
 
-##### TBAs (To-Be-Announced Securities)
-
-### Pfandbriefe
+#### Pfandbriefe
 - Offentliche (Public) Pfandbriefe
   - Collaterized by public sector loans
 - Hypothenken (Mortgage) Pfandbriefe
   - Collaterized by mortgage loans
 - Large market in Germany (and other European countries)
 
-### Catastrophe (CAT) Bonds
+#### Catastrophe (CAT) Bonds
 
-### Inflation-Linked Bonds
+#### Inflation-Linked Bonds
 - Principal and/or interest payments linked to inflation index
 - Treasury Inflation-Protected Securities (TIPS)
   - TIPS are tied to Consumer Price Index (CPI)
-
-## Loans
 
 ## Convertible
 
@@ -130,8 +171,21 @@
 - Priority over common stock in liquidation
 
 ## Derivatives
+- A financial contract whose value is derived from unlying instrument
 
 ### Forwards
+- A customized contract between two parties to buy or sell an asset at a specified price on a future date
+- Traded over-the-counter (OTC)
+- Counterparty risk
+
+#### Currency Forward
+- Exchange one currency for another at a specified rate on a future date
+- Trade with spot rate + forward points
+
+#### TBA (To Be Announced)
+- A forward contract for mortgage-backed securities (MBS)
+- A dollar roll (like Repo for TBA)
+  - Sell a TBA and buy a TBA with a later settlement date
 
 ### Futures
 
@@ -167,7 +221,7 @@
 
 ### Rights
 - The right to buy new shares at a discount
-- Offered to existing common stock holders to maintain proportionate ownership
+- Offered to existing common stockholders to maintain proportionate ownership
 
 ### Warrants
 - The right to buy shares at a fixed price
@@ -176,11 +230,14 @@
 ### Swaps
 - Exchange cash flows of one party for another
 - Examples
-  - Interest Rate Swaps
+  - Interest Rate Swaps (IRS)
+    - Example: Overnight Index Swaps (OIS)
+      - One side pays fixed rate
+      - The other side pays floating rate based on an overnight index (e.g., SOFR, ESTR, SONIA)
   - Currency Swaps
   - Commodity Swaps
+  - Total Return Swaps (TRS)
   - Credit Default Swaps (CDS)
-  - Total Return Swaps
 
 ## Alternatives
 
@@ -195,7 +252,6 @@
 - Art, cars, wine, watches, beanie babies, trading cards
 - Non-Fungible Tokens (NFTs)
   - Blockchain anyone?
-  - 
 
 ## Funds
 
@@ -328,6 +384,12 @@
 - A modern and different take 
   - Pershing Square Tontine Holdings, Ltd.
 
+## Currency
+- Foreign Exchange (FX)
+- Currency Forwards
+- Currency Futures
+- Current Swaps
+
 ## References
 - Securities Industry Essentials Exam For Dummies with Online Practice by Steven M. Rice
 - The Handbook of Financial Instruments by Frank J. Fabozzi
@@ -337,4 +399,4 @@
 - [Prediction Market Structured Notes](https://www.bloomberg.com/opinion/newsletters/2026-04-02/prediction-market-structured-notes)
 - [Matt on Pershing Square Tontine Holdings, Ltd.](https://www.bloomberg.com/opinion/articles/2020-06-23/bill-ackman-wants-a-mature-unicorn)
 - [Pershing Square Tontine Holdings, Ltd. Prospectus](https://www.sec.gov/Archives/edgar/data/1811882/000119312520175042/d930055ds1.htm)
- 
+
