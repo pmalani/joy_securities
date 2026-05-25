@@ -202,7 +202,7 @@
 - Blockchain anyone?
 
 ### Collectibles
-- Art, cars, wine, watches, beanie babies, trading cards, sport teams
+- Art, cars, wine, watches, beanie babies, trading cards, sport teams, music catalogs, media and broadcasting rights
 - Non-Fungible Tokens (NFTs)
   - Blockchain anyone?
 
