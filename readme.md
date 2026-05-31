@@ -226,6 +226,13 @@
 
 #### TBA (To Be Announced)
 - A forward contract for mortgage-backed securities (MBS)
+- Standardized by
+  - Issuer / Agency (e.g., Fannie Mae, Freddie Mac)
+  - Maturity (e.g., 30-year, 15-year)
+  - Coupon (e.g., 3.5%, 4.0%)
+  - Settlement date (e.g., 1 month, 2 months)
+  - Price (e.g., 100-00, 99-16)
+  - Par Amount / Face Value (e.g., $1,000,000)
 - A dollar roll (like Repo for TBA)
   - Sell a TBA and buy a TBA with a later settlement date
 
@@ -239,8 +246,10 @@
 
 ### Options
 - The right to buy or sell at a fixed price for a premium for a specified period
-- A call option is a right to buy
-- A put option is a right to sell
+- A (long) call option is a right to buy
+  - The right costs money
+  - The short call seller receives the premium but has an obligation to sell
+- A (long) put option is a right to sell
 - The writer (seller) of the option has an obligation to sell (call) or buy (put)
   - The writer receives the premium
 - Exercise styles
@@ -254,14 +263,8 @@
   - r = Risk-Free Rate
   - t = Time to Expiration
 - Asymmetric risk/reward profiles
-  - Typically illustrated using Payoff Diagrams
+  - Typically, illustrated using Payoff Diagrams
 - Lots of options (trading) strategies
-- Options Greeks (metrics to measure sensitivity)
-  - Delta
-  - Gamma
-  - Theta
-  - Vega
-  - Implied Volatility (IV)
 
 ### Rights
 - The right to buy new shares at a discount
@@ -284,6 +287,7 @@
   - Credit Default Swaps (CDS)
   
 ## Funds
+- Typically, a pool of money from multiple investors to buy a diversified portfolio of securities
 
 ### Mutual Funds
 - Also, known as Open-End Funds
@@ -309,22 +313,33 @@
 - Traded on exchanges like stocks (intra-day trading)
 - Can trade at premium or discount to NAV
 - Typically, **arbitrage** keeps price close to NAV
-
-#### Exchange-Traded Funds (ETFs)
+- Equity ETFs
+- Bond ETFs
+- Leveraged
+  - 2x or 3x
+  - Can be inverse (short)
 - Credit Default Swaps Indexes (CDX)
 - Volatility
   - Volatility Index (VIX) for Equity (a.k.a. "Fear Gauge")
   - MOVE (Merrill Option Volatility Estimate) for Bonds
+
+#### Exchange-Traded Funds (ETFs)
+- ETFs are a type of ETP that holds a basket of securities and tracks an index
 
 #### Exchange-Traded Notes (ETNs)
 - Unsecured debt instruments (by financial institutions)
   - Kind-a like ETFs but with credit risk of issuer
 
 ### Hedge Funds
+- Hedge funds (are supposed to) hedge risk
 - Whatever it takes to make money
+- Lots of hedge funds are hunting arbitrage opportunities
+- Examples
   - Private Equity Funds
   - Private Credit Funds
   - Long / Short Equity Funds
+  - Event Driven
+    - Merger Arbitrage
 
 ### Real Estate Investment Trusts (REITs)
 - Examples
@@ -333,38 +348,37 @@
 
 ### Structured Products
 - Combine different financial instruments to create a new product with specific risk/reward profile
-- Buffer Fund (and ETF variants)
-  - Example 1
+- Example 1
+  - You give me $100 today
+  - In 2 years, I will give you back
+    - $100, no matter what
+    - 70% of the upside if the market goes up
+  - How?
     - You give me $100 today
-    - In 2 years, I will give you back
-      - $100, no matter what
-      - 70% of the upside if the market goes up
-    - How?
-      - You give me $100 today
-      - I invest $91 in 2-year Treasury bond that will grow to $100 in 2 years
-      - I invest $9 in at-the-money call options on the market to capture the upside
-        - The call options cost 13% of the price of S&P 500 index today
-        - Spending $9 will give you 70% worth of index
-  - Example 2
+    - I invest $91 in 2-year Treasury bond that will grow to $100 in 2 years
+    - I invest $9 in at-the-money call options on the market to capture the upside
+      - The call options cost 13% of the price of S&P 500 index today
+      - Spending $9 will give you 70% worth of index
+- Example 2
+  - You give me $100 today
+  - In 2 years, I will give you back
+    - $100, no matter what
+    - 100% of market upside cap to 25-30%
+  - How?
+    - Same as above, additionally by 
+    - Selling a 25-30% higher strike call
+- Example 3
+  - You give me $100 today
+  - On Superbowl Sunday, I will give you back
+    - $100, no matter what
+    - $150, if Los Angeles Rams win
+  - How?
     - You give me $100 today
-    - In 2 years, I will give you back
-      - $100, no matter what
-      - 100% of market upside cap to 25-30%
-    - How?
-      - Same as above, additionally by 
-      - Selling a 25-30% higher strike call
-  - Example 3
-    - You give me $100 today
-    - On Superbowl Sunday, I will give you back
-      - $100, no matter what
-      - $150, if Los Angeles Rams win
-    - How?
-      - You give me $100 today
-      - I invest $95 in US Treasury bill that will mature on Superbowl Sunday
-      - The implied probability of Rams winning is 10% (on Kalshi)
-      - The cost is $0.10 per contract
-      - I buy 50 contracts for $5
-      - If Rams win, I get $50 from contracts
+    - I invest $95 in US Treasury bill that will mature on Superbowl Sunday
+    - The implied probability of Rams winning is 10% (on Kalshi)
+    - The cost is $0.10 per contract
+    - I buy 50 contracts for $5
+    - If Rams win, I get $50 from contracts
 
 ### Venture Capital
 - Financing of start-up companies
@@ -415,7 +429,8 @@
   - Pershing Square Tontine Holdings, Ltd.
 
 ## Currency
-- Foreign Exchange (FX)
+- a.k.a Foreign Exchange (FX)
+- Currency Spot
 - Currency Forwards
 - Currency Futures
 - Currency Swaps
