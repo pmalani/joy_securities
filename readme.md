@@ -1,4 +1,5 @@
 # Joy of Financial Instruments
+- a.k.a. Securities
 
 ## What is a security?
 - The Howey Test of investment contract
@@ -6,6 +7,9 @@
   - Common Enterprise
   - Expectation of Profits
   - Efforts of a Third Party
+- Examples that are not securities
+  - Currency
+  - Commodities
 
 ## Common Stock
 - Ownership
