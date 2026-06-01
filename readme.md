@@ -285,66 +285,6 @@
   - Commodity Swaps
   - Total Return Swaps (TRS)
   - Credit Default Swaps (CDS)
-  
-## Funds
-- Typically, a pool of money from multiple investors to buy a diversified portfolio of securities
-
-### Mutual Funds
-- Also, known as Open-End Funds
-- Investor buys shares directly from fund
-- Fund buys/sells underlying securities 
-  - E.g., Money Market Funds buying commercial paper
-- Run by Investment (Management) Company that makes **fees**
-  - Custodial fees (for safekeeping securities)
-  - Management fees (for managing portfolio)
-  - 12b-1 fees (for marketing and distribution)
-  - Transfer agent fees (for maintaining shareholder records)
-  - Sales loads (for selling shares to investors)
-- Net Asset Value (NAV) (at end of each trading day)
-  - The value of securities minus liabilities divided by number of shares
-- Buying and selling happens at NAV price
-- Can be passive (follows an index) or active
-
-#### Close-End Funds
-- Fixed number of shares
-- So, can trade at premium or discount to NAV
-
-### Exchange-Traded Products (ETPs)
-- Traded on exchanges like stocks (intra-day trading)
-- Can trade at premium or discount to NAV
-- Typically, **arbitrage** keeps price close to NAV
-- Equity ETFs
-- Bond ETFs
-- Leveraged
-  - 2x or 3x
-  - Can be inverse (short)
-- Credit Default Swaps Indexes (CDX)
-- Volatility
-  - Volatility Index (VIX) for Equity (a.k.a. "Fear Gauge")
-  - MOVE (Merrill Option Volatility Estimate) for Bonds
-
-#### Exchange-Traded Funds (ETFs)
-- ETFs are a type of ETP that holds a basket of securities and tracks an index
-
-#### Exchange-Traded Notes (ETNs)
-- Unsecured debt instruments (by financial institutions)
-  - Kind-a like ETFs but with credit risk of issuer
-
-### Hedge Funds
-- Hedge funds (are supposed to) hedge risk
-- Whatever it takes to make money
-- Lots of hedge funds are hunting arbitrage opportunities
-- Examples
-  - Private Equity Funds
-  - Private Credit Funds
-  - Long / Short Equity Funds
-  - Event Driven
-    - Merger Arbitrage
-
-### Real Estate Investment Trusts (REITs)
-- Examples
-    - Pipelines
-    - Mortgage REITs
 
 ### Structured Products
 - Combine different financial instruments to create a new product with specific risk/reward profile
@@ -365,7 +305,7 @@
     - $100, no matter what
     - 100% of market upside cap to 25-30%
   - How?
-    - Same as above, additionally by 
+    - Same as above, additionally by
     - Selling a 25-30% higher strike call
 - Example 3
   - You give me $100 today
@@ -380,7 +320,7 @@
     - I buy 50 contracts for $5
     - If Rams win, I get $50 from contracts
 
-### Venture Capital
+## Venture Capital
 - Financing of start-up companies
 - An example of private equity
 - Typical stages
@@ -391,16 +331,97 @@
   - Mezzanine
   - Initial Public Offering (IPO)
 
-### Islamic Finance
-- Islamic principles prohibit 
-  - interest 
+## Islamic Finance
+- Islamic principles prohibit
+  - interest
   - excessive uncertainty
   - speculation
 - Examples
-    - Sukuk (Islamic Bonds)
-      - Asset-backed securities 
-      - Ownership of underlying assets rather than debt
-    - Many others
+  - Sukuk (Islamic Bonds)
+    - Asset-backed securities
+    - Ownership of underlying assets rather than debt
+  - Many others
+
+## Funds
+- Typically, a pool of money from multiple investors to buy a diversified portfolio of securities
+- Securities can be
+  - Equities
+  - Bonds
+  - Anything
+- Buffer Fund
+  - a.k.a. Defined Outcome
+  - A fund that has structured products
+- Net Asset Value (NAV)
+  - The value of securities minus liabilities divided by number of shares
+
+### Open-End Funds
+- Open to new investors and redemptions
+
+#### Mutual Funds
+- Open-ended
+- Investor buys shares directly from fund at (today's) NAV (forward pricing)
+- Fund buys/sells underlying securities
+  - E.g., Money Market Funds buying commercial paper
+- Run by Investment (Management) Company that makes **fees**
+  - Custodial fees (for safekeeping securities)
+  - Management fees (for managing portfolio)
+  - 12b-1 fees (for marketing and distribution)
+  - Transfer agent fees (for maintaining shareholder records)
+  - Sales loads (for selling shares to investors)
+- NAV at end of each trading day
+- Buying and selling happens at NAV price
+- Can be passive (follows an index) or active
+
+#### Exchange-Traded Products (ETPs)
+- Open-ended
+- Traded on exchanges like stocks (intra-day trading)
+- Can trade at premium or discount to NAV
+- Typically, **arbitrage** keeps price close to NAV
+- Leveraged
+  - 2x or 3x
+  - Can be inverse (short)
+- Credit Default Swaps Indexes (CDX)
+- Volatility
+  - Volatility Index (VIX) for Equity (a.k.a. "Fear Gauge")
+  - MOVE (Merrill Option Volatility Estimate) for Bonds
+
+##### Exchange-Traded Funds (ETFs)
+- ETFs are a type of ETP that holds a basket of securities and tracks an index
+
+##### Exchange-Traded Notes (ETNs)
+- Unsecured debt instruments (by financial institutions)
+  - Kind-a like ETFs but with credit risk of issuer
+
+##### Exchange-Traded Close-End Funds
+- Fixed number of shares
+- So, can trade at premium or discount to NAV
+
+#### Interval Fund
+- Close-ended
+- Non-exchange-traded
+- Investors can only redeem shares at specific intervals (e.g., quarterly, annually) at NAV
+- Typically, invest in less liquid assets
+
+#### Business Development Company (BDC)
+- Mandated to invest 70% of assets in private or small-cap U.S. companies
+- A type of closed-end fund
+- Can be publicly traded or non-traded
+
+### Hedge Funds
+- Hedge funds (are supposed to) hedge risk
+- Whatever it takes to make money
+- Lots of hedge funds are hunting arbitrage opportunities
+- Examples
+  - Private Equity Funds
+  - Private Credit Funds
+  - Long / Short Equity Funds
+  - Event Driven
+    - Merger Arbitrage
+
+### Real Estate Investment Trusts (REITs)
+- Examples
+    - Pipelines
+    - Mortgage REITs
 
 ## Annuities
 - (Insurance) products that pay out income
