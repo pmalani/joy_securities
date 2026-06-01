@@ -11,6 +11,16 @@
   - Currency
   - Commodities
 
+## Out of scope
+- Trading
+- Risk
+- Performance
+- Accounting
+- Confirmation
+- Settlement
+- Compliance
+- Order Management
+
 ## Common Stock
 - Ownership
 - Limited Liability
@@ -23,9 +33,13 @@
   - (sometimes) Over-the-Counter (OTC)
 - Value versus Growth
 - Small cap(italization) versus Mid cap versus Large cap
+- Example:
+  - [Microsoft](https://finance.yahoo.com/quote/MSFT/)
 
 ### Depositary Receipts
 - American Depositary Receipts (ADRs) are foreign stocks traded in the U.S.
+- Example:
+  - [Honda](https://finance.yahoo.com/quote/HMC/)
 
 ## Debt
 - To borrow money with a promise to repay the principal along with interest
