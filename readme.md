@@ -173,7 +173,7 @@
   - Collaterized by mortgage loans
 - Large market in Germany (and other European countries)
 
-#### Catastrophe (CAT) Bonds
+#### Catastrophe Bonds
 - a.k.a Cat Bonds
 - Issued by insurance companies to transfer catastrophe risk to investors
 - Linked to natural disasters (e.g., hurricanes, earthquakes) or other catastrophic events
@@ -217,12 +217,10 @@
 
 ### Crypto Currencies
 - Digital currencies such as Bitcoin, Ethereum, Stablecoins, Memecoins
-- Blockchain anyone?
 
 ### Collectibles
 - Art, cars, wine, watches, beanie babies, trading cards, sport teams, music catalogs, media and broadcasting rights
 - Non-Fungible Tokens (NFTs)
-  - Blockchain anyone?
 
 ### Real Estate
 - Farms, forest, residential buildings, commercial buildings, toll-roads, runways, take-off and landing slots, etc.
@@ -234,7 +232,7 @@
 - A financial contract whose value is derived from unlying instrument
 
 ### Forwards
-- A customized contract between two parties to buy or sell an asset at a specified price on a future date
+- A contract between two parties to buy or sell an asset at a specified price on a future date
 - Traded over-the-counter (OTC)
 - Counterparty risk
 
@@ -293,7 +291,7 @@
 - Sweetener along with bond or stock offering
 
 ### Swaps
-- Exchange cash flows of one party for another
+- Exchange cash flows
 - Examples
   - Interest Rate Swaps (IRS)
     - Example: Overnight Index Swaps (OIS)
