@@ -11,7 +11,7 @@
   - Currency
   - Commodities
 
-## Out of scope
+## Things to keep in mind
 - Trading
 - Risk
 - Performance
